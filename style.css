@@ -1,0 +1,160 @@
+* {
+    /* padding se box k andr jo text hai usmy space atta hai or margin se box k bahr space atta hai */
+    margin : 0;     
+    padding : 0;
+}
+
+.container {
+    width: 100%;
+}
+
+nav {
+    background-color : black;
+    width : 100%  
+}
+
+nav ul {
+    /* bullet points remove hum list style type se krty hai */
+    list-style-type: none;   
+}
+
+nav ul a {
+   color : white;
+   text-transform: uppercase;
+}
+
+nav ul a li {
+    /* display aik line mai display krwata jisky upr apply kiya usko */
+    display: inline-block;
+    padding : 1.2%;
+}
+
+nav ul a li:hover {
+    color :black;
+    background-color : white;
+}
+
+header img{
+        width : 100%;
+}
+
+.full-width-section{
+    width : 100%;
+    padding : 100px 0px 100px 0px;
+}
+
+.full-width-section section{
+    /* margin mai jo 0 lgyaa hai wo top bottom btata hai top bottom se yani 0 percent margin ho or left right k liye auto lgadiya  jis se 20% left
+    se or 20% right se space dy dy ga qk 60% width di tou 40% bacha jisky  20% left space AND   20% RIGHT SPACE  */
+    width : 60%;
+    margin : 0 auto;
+}
+
+
+.full-width-section h1{
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+}
+
+.heading-subtitle{
+    text-align: center;
+    font-style: italic;
+    margin : 15px 0px
+}
+
+
+.full-width-section p{
+    text-align: justify;
+}
+
+.full-width-section section .sectors{
+    width : 30%; 
+    display: inline-block;
+    margin : 35px 1%;
+}
+
+.full-width-section section .sectors p{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.full-width-section section .sectors img{
+    width : 100%; 
+}
+
+
+.bg-color{
+    background-color: black;
+    color :white
+}
+
+.month-row{
+    width:100%;
+    background-color: white;
+    color : black;
+    margin : 0.1%;
+    padding : 2.5%;
+}
+
+.order-now{
+    background-color: #F44336;
+    padding : 1%;
+    color : white;
+}
+
+.full-width-section section .portion{
+    width : 30%; 
+    display: inline-block;
+    margin : 25px 1%;
+    background-color: white;
+    color: black;
+}
+
+
+.full-width-section section .portion img{
+    width : 100%; 
+}
+
+.full-width-section section .portion h4, p{
+    padding: 2%;
+}
+
+.full-width-section section .portion a{
+    background-color: #F44336;
+    color :white;
+}
+
+
+.full-width-section aside{
+    width : 49%;
+    display : inline-block;
+    vertical-align: top;
+}
+
+.full-width-section aside h2{
+    background-color: black;
+    color: white;
+}
+
+.full-width-section aside form input[type=text],input[type=email]{
+    width : 100%; 
+}
+
+.full-width-section aside form input[type=submit]{
+    background-color: black; 
+    color : white;
+    padding : 1%;
+    margin-top : 0.5%;
+}
+
+footer p{
+    padding : 2%;
+}
+
+.color{
+    background-color: #F44336;
+    color : white
+}
+
